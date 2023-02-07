@@ -1,0 +1,81 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(211, 211, 255);
+    
+}
+
+header{
+    color: black;
+    font-size: 20px;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(4, 8, 255);
+    border: 3px groove blue;
+    border-radius: 6px;
+    padding: 3px;
+}
+
+nav{
+    margin: 15px;
+    text-align: center;
+    font-size: 17px;
+    border: 3px groove blue;
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(182, 182, 255);
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 1, 77);
+    border: 3px groove blue;
+    border-radius: 6px;
+    padding: 3px;
+}
+
+h1, h2{
+    text-align: center;
+    background-color: rgb(162, 162, 248);
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+
+.imgg{
+    text-align: center;
+    width: 500px;
+    height: 250px;
+}
+
+table{
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+td{
+    border-radius: 5px;
+    border: 2px solid blue;
+    padding: 10px;
+}
+
+footer{
+    border: 2px solid blue;
+    border-radius: 10px;
+    background-color: white;
+    margin: 5px;
+    padding: 8px;
+}
+footer p{
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding:7px;
+}
+h1:hover{
+    color: blue;
+}
+a:hover{
+    border: 3px solid red;
+}
